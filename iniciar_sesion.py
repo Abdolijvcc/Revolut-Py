@@ -2,6 +2,8 @@ import os
 import fnmatch
 import json
 
+
+#Este fun creada por AI
 def find_and_open_json(folder_path, filename_to_find):
     for root, dirs, files in os.walk(folder_path):
         for file in files:
